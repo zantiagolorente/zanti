@@ -1,0 +1,400 @@
+[
+	{
+		"addtocart": {
+			"rest": {
+				"params": {
+					"basketAction": "AddWithNoConfig",
+					"offer": "COM-INET-OFR-SFTWR-MS-OFFICE"
+				},
+				"link": "v3/catalogs/Cloud_Services/basket",
+				"method": "POST"
+			}
+		},
+		"offerDetailsAction": {
+			"rest": {
+				"params": {},
+				"method": "GET",
+				"link": "/v3/catalogs/Cloud_Services/offers/COM-INET-OFR-SFTWR-MS-OFFICE"
+			},
+			"remote": {
+				"params": {}
+			},
+			"client": {
+				"records": [],
+				"params": {}
+			}
+		},
+		"priceResult": [
+			{
+				"adjustments": [],
+				"overrides": [],
+				"chargeamount": 10,
+				"baseamount": 10,
+				"Amount__c": 10,
+				"IsVirtualPrice__c": false,
+				"IsBasePrice__c": true,
+				"effectiveuntildatespec": null,
+				"effectivefromdatespec": null,
+				"SubType__c": "Standard",
+				"Type__c": "Price",
+				"RecurringFrequency__c": "Monthly",
+				"ChargeType__c": "Recurring",
+				"DisplayText__c": "10$",
+				"pleEffectiveFrom": "2023-07-28T07:00:00.000Z"
+			}
+		],
+		"Name": "Microsoft Office 365",
+		"Description": "The premiere office productivity suite.",
+		"ProductCode": "COM-INET-OFR-SFTWR-MS-OFFICE",
+		"vlocity_cmt__IsOrderable__c": true,
+		"IsActive": true,
+		"vlocity_cmt__ProductSpecId__c": "01tHo000003s8cpIAA",
+		"vlocity_cmt__SpecificationType__c": "Offer",
+		"AttributeCategory": {
+			"COM-ATTRGRP-GENERIC": [
+				{
+					"$$AttributeDefinitionStart$$": null,
+					"objectid__c": "01tHo000003s8crIAA",
+					"attributeid__c": "a4pHo00000056VOIAY",
+					"attributecategoryid__c": "a4oHo000000NEgEIAW",
+					"categorycode__c": "COM-ATTRGRP-GENERIC",
+					"categoryname__c": "Generic Attributes",
+					"attributeuniquecode__c": "COM-ATTR-GENERIC-LIC-COUNT",
+					"attributeconfigurable__c": true,
+					"attributedisplaysequence__c": "2",
+					"attributefilterable__c": true,
+					"attributecloneable__c": true,
+					"isactive__c": true,
+					"attributedisplayname__c": "License Count",
+					"displaysequence__c": "1001",
+					"categorydisplaysequence__c": 1001,
+					"customconfiguitemplate__c": null,
+					"formatmask__c": null,
+					"hasrule__c": false,
+					"isconfigurable__c": false,
+					"ishidden__c": true,
+					"valueinnumber__c": 1,
+					"objecttype__c": "Product2",
+					"querycode__c": null,
+					"isreadonly__c": true,
+					"isnottranslatable__c": false,
+					"isquerydriven__c": false,
+					"querylabel__c": null,
+					"id": "a4mHo000000HWT0IAO",
+					"isrequired__c": false,
+					"rulemessage__c": null,
+					"uidisplaytype__c": "Text",
+					"value__c": "1",
+					"valuedatatype__c": "Text",
+					"valuedescription__c": null,
+					"attributegrouptype__c": null,
+					"isnotassetizable__c": false,
+					"attributeRunTimeInfo": {
+						"dataType": "Text",
+						"uiDisplayType": "Text",
+						"default": "1"
+					},
+					"$$AttributeDefinitionEnd$$": null
+				},
+				{
+					"$$AttributeDefinitionStart$$": null,
+					"objectid__c": "01tHo000003s8crIAA",
+					"attributeid__c": "a4pHo00000056VPIAY",
+					"attributecategoryid__c": "a4oHo000000NEgEIAW",
+					"categorycode__c": "COM-ATTRGRP-GENERIC",
+					"categoryname__c": "Generic Attributes",
+					"attributeuniquecode__c": "COM-ATTR-GENERIC-LIC-EDITION",
+					"attributeconfigurable__c": true,
+					"attributedisplaysequence__c": "1",
+					"attributefilterable__c": true,
+					"attributecloneable__c": true,
+					"isactive__c": true,
+					"attributedisplayname__c": "License Edition",
+					"displaysequence__c": "1001",
+					"categorydisplaysequence__c": 1001,
+					"customconfiguitemplate__c": null,
+					"formatmask__c": null,
+					"hasrule__c": false,
+					"isconfigurable__c": true,
+					"ishidden__c": false,
+					"valueinnumber__c": null,
+					"objecttype__c": "vlocity_cmt__ObjectClass__c",
+					"querycode__c": null,
+					"isreadonly__c": false,
+					"isnottranslatable__c": false,
+					"isquerydriven__c": false,
+					"querylabel__c": null,
+					"id": "a4mHo000000HWSzIAO",
+					"isrequired__c": true,
+					"rulemessage__c": null,
+					"uidisplaytype__c": "Dropdown",
+					"value__c": "Small Business Edition",
+					"valuedatatype__c": "Picklist",
+					"valuedescription__c": null,
+					"attributegrouptype__c": null,
+					"isnotassetizable__c": false,
+					"attributeRunTimeInfo": {
+						"dataType": "Picklist",
+						"uiDisplayType": "Dropdown",
+						"default": [
+							{
+								"displayText": "Small Business Edition",
+								"id": "842de1bd-a6e7-bb0e-3b25-a83308e40bb0",
+								"sequence": 1,
+								"value": "Small Business Edition"
+							}
+						],
+						"values": [
+							{
+								"displayText": "Small Business Edition",
+								"id": "842de1bd-a6e7-bb0e-3b25-a83308e40bb0",
+								"sequence": 1,
+								"value": "Small Business Edition"
+							},
+							{
+								"displayText": "Premium Edition",
+								"id": "36cdba45-f6e2-584a-d8b6-dafcda1d6683",
+								"sequence": 2,
+								"value": "Premium Edition"
+							},
+							{
+								"displayText": "Enterprise Edition",
+								"id": "4ce58ad6-edb0-f379-b792-6b4b27d87125",
+								"sequence": 3,
+								"value": "Enterprise Edition"
+							}
+						]
+					},
+					"$$AttributeDefinitionEnd$$": null
+				}
+			]
+		},
+		"url": "https://cmt-ido.s3.us-east-2.amazonaws.com/comms/products/Stardust/Office365.png",
+		"offerType": "Product"
+	},
+	{
+		"addtocart": {
+			"rest": {
+				"params": {
+					"basketAction": "AddWithNoConfig",
+					"offer": "VEPC_OFFERING_FIREWALL"
+				},
+				"link": "v3/catalogs/Cloud_Services/basket",
+				"method": "POST"
+			}
+		},
+		"offerDetailsAction": {
+			"rest": {
+				"params": {},
+				"method": "GET",
+				"link": "/v3/catalogs/Cloud_Services/offers/VEPC_OFFERING_FIREWALL"
+			},
+			"remote": {
+				"params": {}
+			},
+			"client": {
+				"records": [],
+				"params": {}
+			}
+		},
+		"priceResult": [
+			{
+				"adjustments": [],
+				"overrides": [],
+				"chargeamount": 150,
+				"baseamount": 150,
+				"Amount__c": 150,
+				"IsVirtualPrice__c": false,
+				"IsBasePrice__c": true,
+				"effectiveuntildatespec": null,
+				"effectivefromdatespec": null,
+				"SubType__c": "Standard",
+				"Type__c": "Price",
+				"RecurringFrequency__c": "Monthly",
+				"ChargeType__c": "Recurring",
+				"DisplayText__c": "150",
+				"pleEffectiveFrom": "2019-04-19T00:00:00.000Z",
+				"pleEffectiveUntil": "2099-04-19T00:00:00.000Z"
+			}
+		],
+		"Name": "Firewall",
+		"Description": "Value-add services for the entire network",
+		"ProductCode": "VEPC_OFFERING_FIREWALL",
+		"vlocity_cmt__SellingStartDate__c": "2023-08-01T07:00:00.000Z",
+		"vlocity_cmt__IsOrderable__c": true,
+		"IsActive": true,
+		"vlocity_cmt__SpecificationType__c": "Offer",
+		"AttributeCategory": {
+			"VEPC_ATTRIBUTE_CATEGORY_OTHER_DETAILS": [
+				{
+					"$$AttributeDefinitionStart$$": null,
+					"objectid__c": "01tHo000003s8b2IAA",
+					"attributeid__c": "a4pHo00000056TpIAI",
+					"attributecategoryid__c": "a4oHo000000NEfVIAW",
+					"categorycode__c": "VEPC_ATTRIBUTE_CATEGORY_OTHER_DETAILS",
+					"categoryname__c": "Other Details",
+					"attributeuniquecode__c": "VPL_ATTR_TANGIBLE",
+					"attributeconfigurable__c": true,
+					"attributedisplaysequence__c": "10",
+					"attributefilterable__c": false,
+					"attributecloneable__c": true,
+					"isactive__c": true,
+					"attributedisplayname__c": "Tangible",
+					"displaysequence__c": "null",
+					"categorydisplaysequence__c": 6210,
+					"customconfiguitemplate__c": null,
+					"formatmask__c": null,
+					"hasrule__c": false,
+					"isconfigurable__c": true,
+					"ishidden__c": false,
+					"valueinnumber__c": null,
+					"objecttype__c": "Product2",
+					"querycode__c": null,
+					"isreadonly__c": false,
+					"isnottranslatable__c": false,
+					"isquerydriven__c": false,
+					"querylabel__c": null,
+					"id": "a4mHo000000HWA8IAO",
+					"isrequired__c": false,
+					"rulemessage__c": null,
+					"uidisplaytype__c": null,
+					"value__c": null,
+					"valuedatatype__c": "Checkbox",
+					"valuedescription__c": null,
+					"attributegrouptype__c": null,
+					"isnotassetizable__c": false,
+					"attributeRunTimeInfo": {
+						"dataType": "Checkbox",
+						"default": false
+					},
+					"$$AttributeDefinitionEnd$$": null
+				}
+			]
+		},
+		"url": "https://slorente-230601-700-demo.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068Ho00000M7SiC&operationContext=CHATTER&contentId=05THo00001L5PvY",
+		"offerType": "Product"
+	},
+	{
+		"addtocart": {
+			"rest": {
+				"params": {
+					"basketAction": "AddWithNoConfig",
+					"offer": "B2C-MOB-ADDON-OFR-CLD-STOR"
+				},
+				"link": "v3/catalogs/Cloud_Services/basket",
+				"method": "POST"
+			}
+		},
+		"offerDetailsAction": {
+			"rest": {
+				"params": {},
+				"method": "GET",
+				"link": "/v3/catalogs/Cloud_Services/offers/B2C-MOB-ADDON-OFR-CLD-STOR"
+			},
+			"remote": {
+				"params": {}
+			},
+			"client": {
+				"records": [],
+				"params": {}
+			}
+		},
+		"priceResult": [
+			{
+				"adjustments": [],
+				"overrides": [],
+				"chargeamount": 5,
+				"baseamount": 5,
+				"Amount__c": 5,
+				"IsVirtualPrice__c": false,
+				"IsBasePrice__c": true,
+				"effectiveuntildatespec": null,
+				"effectivefromdatespec": null,
+				"SubType__c": "Standard",
+				"Type__c": "Price",
+				"RecurringFrequency__c": "Monthly",
+				"ChargeType__c": "Recurring",
+				"DisplayText__c": "3",
+				"pleEffectiveFrom": "2023-08-01T07:00:00.000Z"
+			}
+		],
+		"Name": "Cloud Storage",
+		"Description": "Extra 500 GB or 1 TB per office\n- Ensure you have room for all your memories and anything you want to keep with you from your phone.",
+		"ProductCode": "B2C-MOB-ADDON-OFR-CLD-STOR",
+		"vlocity_cmt__IsOrderable__c": true,
+		"IsActive": true,
+		"vlocity_cmt__ProductSpecId__c": "01tHo000003s8bYIAQ",
+		"vlocity_cmt__SpecificationType__c": "Offer",
+		"AttributeCategory": {
+			"B2C-ATTRCAT-CLD-STOR": [
+				{
+					"$$AttributeDefinitionStart$$": null,
+					"objectid__c": "01tHo000003s8bKIAQ",
+					"attributeid__c": "a4pHo00000056UPIAY",
+					"attributecategoryid__c": "a4oHo000000NEfzIAG",
+					"categorycode__c": "B2C-ATTRCAT-CLD-STOR",
+					"categoryname__c": "Cloud Storage Details",
+					"attributeuniquecode__c": "B2C-ATTR-CLD-STOR-CAP",
+					"attributeconfigurable__c": true,
+					"attributedisplaysequence__c": "10",
+					"attributefilterable__c": true,
+					"attributecloneable__c": true,
+					"isactive__c": true,
+					"attributedisplayname__c": "Cloud Storage Capacity",
+					"displaysequence__c": "8700",
+					"categorydisplaysequence__c": 8700,
+					"customconfiguitemplate__c": null,
+					"formatmask__c": null,
+					"hasrule__c": false,
+					"isconfigurable__c": true,
+					"ishidden__c": false,
+					"valueinnumber__c": 500,
+					"objecttype__c": "vlocity_cmt__ObjectClass__c",
+					"querycode__c": null,
+					"isreadonly__c": false,
+					"isnottranslatable__c": false,
+					"isquerydriven__c": false,
+					"querylabel__c": null,
+					"id": "a4mHo000000HWAkIAO",
+					"isrequired__c": false,
+					"rulemessage__c": null,
+					"uidisplaytype__c": "Dropdown",
+					"value__c": "500",
+					"valuedatatype__c": "Picklist",
+					"valuedescription__c": null,
+					"attributegrouptype__c": null,
+					"isnotassetizable__c": false,
+					"attributeRunTimeInfo": {
+						"dataType": "Picklist",
+						"uiDisplayType": "Dropdown",
+						"default": [
+							{
+								"value": "500",
+								"sequence": 1,
+								"id": "4dd02fb6-883a-ebb9-4702-6892682f9806",
+								"displayText": "500 GB"
+							}
+						],
+						"values": [
+							{
+								"value": "500",
+								"sequence": 1,
+								"id": "4dd02fb6-883a-ebb9-4702-6892682f9806",
+								"displayText": "500 GB"
+							},
+							{
+								"value": "1000",
+								"sequence": 2,
+								"id": "a1658d36-4cfa-810c-1a07-8ace31080bc3",
+								"displayText": "1 TB"
+							}
+						]
+					},
+					"$$AttributeDefinitionEnd$$": null
+				}
+			]
+		},
+		"url": "https://slorente-230601-700-demo.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068Ho00000M7Shx&operationContext=CHATTER&contentId=05THo00001L5Puu",
+		"offerType": "Product"
+	}
+]
